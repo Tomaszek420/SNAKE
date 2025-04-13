@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	background-image: url('forest.jpeg');
+	background-size: cover; /* Dopasowuje obraz do całego ekranu */
+    background-position: center; /* Ustawia obraz na środkowaniu */
+    background-repeat: no-repeat; /* Zapobiega powtarzaniu się obrazu */
+	color:white;
+}
+
+#gameArea {
+    width: 450px;
+    height: 450px;
+    background-color: lightgreen;
+    position: relative;
+    overflow: hidden;
+}
+
+.segment {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+}
+
+#food {
+    width: 20px;
+    height: 20px;
+    background-color: red; /* Możesz zmienić kolor na bardziej odpowiedni */
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px; /* Zaokrąglone rogi, w zależności od potrzeb */
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
+
+.lvl {
+	box-shadow: 3px 4px 0px 0px #3dc21b;
+	background:linear-gradient(to bottom, #3db05c 5%, #5cbf2a 100%);
+	background-color:#3db05c;
+	border-radius:19px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.lvl:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #3db05c 100%);
+	background-color:#5cbf2a;
+}
+.lvl:active {
+	position:relative;
+	top:1px;
+}
+
+
+h1 {
+margin-bottom:-1px;
+margin-top:-1px;
+padding-bottom:5px;
+padding-top:5px;
+font-weight: 900;
+font-size: 40px; 
+color:white;
+text-align: center;
+text-shadow: 4px 4px 5px rgb(0, 255, 0);
+}
+
+.menu{
+font-size: 20px; 
+letter-spacing:2px;
+}
+
+.menu1{
+	color:white;
+	font-size:18px;
+	font-weight:800;
+}
+
+
